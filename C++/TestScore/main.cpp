@@ -7,11 +7,14 @@ using namespace std;
 int count_case;
 bool visited[10001];
 
+void process(int socre[], int N);
+void printResult();
+
 void inputData() {
 	int T, test_case;
 	cin >> T;
 
-	for (int test_case = 1; test_case <= T; test_case++) {
+	for (test_case = 1; test_case <= T; test_case++) {
 		int N;
 		cin >> N;
 
@@ -31,8 +34,7 @@ void process(int score[], int N) {
 	for (int i = 0; i < N; i++) {
 		q.push(score[i]);
 	}
-	sort(q.front(), q.back());
-
+	
 	
 }
 
