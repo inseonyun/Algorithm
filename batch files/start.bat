@@ -9,14 +9,13 @@ echo --------------------------------------------
 set batch_file_path="C:/Users/user/Desktop/batch files"
 set git_file_path="D:/git_my_test/DingDong"
 
+:START
 pushd %batch_file_path%
 
-:START
 set input =
 set /p input=Please Input 1 / 2 / 3 / q : 
 
 if %input% == 1 (
-	pushd %batch_file_path%
 	echo.
 	echo wait . . . 
 	echo.
@@ -25,7 +24,6 @@ if %input% == 1 (
 	echo.
 	echo --------------------------------------------
 ) else if %input% == 2 (
-	pushd %batch_file_path%
 	echo.
 	echo wait . . . 
 	echo.
@@ -34,7 +32,6 @@ if %input% == 1 (
 	echo.
 	echo --------------------------------------------
 ) else if %input% == 3 (
-	pushd %batch_file_path%
 	echo.
 	echo wait . . . 
 	echo.
