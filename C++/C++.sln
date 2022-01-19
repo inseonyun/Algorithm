@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Maze1_DFS", "Maze1_DFS\Maze
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Maze2_DFS", "Maze2_DFS\Maze2_DFS.vcxproj", "{E13344DF-6DE3-4445-A46F-D2F4FA8E7969}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CircuitTree", "CircuitTree\CircuitTree.vcxproj", "{6526BFE2-16F8-4230-932F-CADD3015D10F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{E13344DF-6DE3-4445-A46F-D2F4FA8E7969}.Release|x64.Build.0 = Release|x64
 		{E13344DF-6DE3-4445-A46F-D2F4FA8E7969}.Release|x86.ActiveCfg = Release|Win32
 		{E13344DF-6DE3-4445-A46F-D2F4FA8E7969}.Release|x86.Build.0 = Release|Win32
+		{6526BFE2-16F8-4230-932F-CADD3015D10F}.Debug|x64.ActiveCfg = Debug|x64
+		{6526BFE2-16F8-4230-932F-CADD3015D10F}.Debug|x64.Build.0 = Debug|x64
+		{6526BFE2-16F8-4230-932F-CADD3015D10F}.Debug|x86.ActiveCfg = Debug|Win32
+		{6526BFE2-16F8-4230-932F-CADD3015D10F}.Debug|x86.Build.0 = Debug|Win32
+		{6526BFE2-16F8-4230-932F-CADD3015D10F}.Release|x64.ActiveCfg = Release|x64
+		{6526BFE2-16F8-4230-932F-CADD3015D10F}.Release|x64.Build.0 = Release|x64
+		{6526BFE2-16F8-4230-932F-CADD3015D10F}.Release|x86.ActiveCfg = Release|Win32
+		{6526BFE2-16F8-4230-932F-CADD3015D10F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
