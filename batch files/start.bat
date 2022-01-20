@@ -6,8 +6,12 @@ echo	2 : Add, Commit, Push in origin
 echo	3 : Pull upstream, Delete branch
 echo --------------------------------------------
 
+set newBranchName =
+set /p newBranchName=Please Input new Branch Name : 
+
 set batch_file_path="C:/Users/user/Desktop/batch files"
 set git_file_path="D:/git_my_test/DingDong"
+set git_address="https://github.com/inseonyun/DingDong"
 
 :START
 pushd %batch_file_path%

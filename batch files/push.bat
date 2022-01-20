@@ -1,9 +1,12 @@
 @echo off
 pushd %git_file_path%
-git add .
-git commit -m "Added from batch file"
-git push origin batch
 
-start chrome.exe "https://github.com/inseonyun/DingDong"
+set /p message=Commit Message Input : 
+
+git add .
+git commit -m "%message%"
+git push origin %newBranchName%
+
+start chrome.exe %git_address%
 
 echo Push Success

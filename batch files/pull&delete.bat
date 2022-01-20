@@ -2,8 +2,8 @@
 pushd %git_file_path%
 git checkout master
 git pull upstream master
-git branch -D batch
-git push origin :batch
+git branch -D %newBranchName%
+git push origin :%newBranchName%
 git push
 
-echo Pull And Delete Branch 
+echo Pull And Delete "%newBranchName%"
