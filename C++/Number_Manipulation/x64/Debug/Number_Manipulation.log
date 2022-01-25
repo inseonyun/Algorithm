@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\git_my_test\algorithm\C++\Number_Manipulation\main.cpp(14,9): warning C4101: 'test_case' :참조되지 않은 지역 변수입니다.
+  Number_Manipulation.vcxproj -> D:\git_my_test\algorithm\C++\x64\Debug\Number_Manipulation.exe

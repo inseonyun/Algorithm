@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BalanceWorld", "BalanceWorl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CountLinkedNode", "CountLinkedNode\CountLinkedNode.vcxproj", "{B4F59B10-1A81-486B-8FA7-951D08E524AC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Number_Manipulation", "Number_Manipulation\Number_Manipulation.vcxproj", "{EC8E1822-BACD-47E6-9779-73482E300D0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{B4F59B10-1A81-486B-8FA7-951D08E524AC}.Release|x64.Build.0 = Release|x64
 		{B4F59B10-1A81-486B-8FA7-951D08E524AC}.Release|x86.ActiveCfg = Release|Win32
 		{B4F59B10-1A81-486B-8FA7-951D08E524AC}.Release|x86.Build.0 = Release|Win32
+		{EC8E1822-BACD-47E6-9779-73482E300D0A}.Debug|x64.ActiveCfg = Debug|x64
+		{EC8E1822-BACD-47E6-9779-73482E300D0A}.Debug|x64.Build.0 = Debug|x64
+		{EC8E1822-BACD-47E6-9779-73482E300D0A}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC8E1822-BACD-47E6-9779-73482E300D0A}.Debug|x86.Build.0 = Debug|Win32
+		{EC8E1822-BACD-47E6-9779-73482E300D0A}.Release|x64.ActiveCfg = Release|x64
+		{EC8E1822-BACD-47E6-9779-73482E300D0A}.Release|x64.Build.0 = Release|x64
+		{EC8E1822-BACD-47E6-9779-73482E300D0A}.Release|x86.ActiveCfg = Release|Win32
+		{EC8E1822-BACD-47E6-9779-73482E300D0A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
