@@ -19,13 +19,10 @@ int solution(vector<vector<int>> sizes) {
             sizes[i][1] = sizes[i][0];
             sizes[i][0] = tmp;
         }
-    }
-    
-    for(vector<int> now : sizes) {
-        if(max_row < now[0])
-            max_row = now[0];
-        if(max_col < now[1])
-            max_col = now[1];
+        if(max_row < sizes[i][0])
+            max_row = sizes[i][0];
+        if(max_col < sizes[i][1])
+            max_col = sizes[i][1];
     }
     
     answer = max_row * max_col;
