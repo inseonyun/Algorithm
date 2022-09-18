@@ -24,7 +24,7 @@ void solution(int now) {
 		for (int i = 1; i <= N; i++) {
 			if (!visited[i]) {
 				visited[i] = true;
-				arr[i] = i;
+				arr[now] = i;
 				solution(now + 1);
 				visited[i] = false;
 			}
