@@ -16,10 +16,9 @@ void input() {
 
 void solution(int now) {
 	if (now == M) {
-		for (int i = 0; i < M; i++) {
+		for (int i = 0; i < M; i++) 
 			cout << arr[i] << " ";
-			cout << "\n";
-		}
+		cout << "\n";
 	}
 	else {
 		for (int i = 1; i <= N; i++) {
