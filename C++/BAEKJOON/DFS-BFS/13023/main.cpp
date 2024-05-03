@@ -8,7 +8,7 @@ vector<vector<int>> v(2000);
 bool visited[2000] = {false, };
 
 void dfs(int e, int depth) {
-    if (depth == N || res == 1) {
+    if (depth == 5 || res == 1) {
         res = 1;
         return;
     }
