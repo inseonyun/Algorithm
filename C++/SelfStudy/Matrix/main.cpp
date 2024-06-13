@@ -12,14 +12,15 @@ void initArray(int arr[5][5], int rowSize, int colSize) {
     }
 }
 
-void rotateMatrix(int arr[5][5], int radius, int rowSize, int colSize) {
+void rotateMatrix(int arr[5][5], int radius, int rowSize, int colSize, bool isCorner) {
     int temp[rowSize][colSize];
     
     // 임시 복사
     copy(&arr[0][0], &arr[0][0] + (rowSize * colSize), &temp[0][0]);
     
-    for (int i = 0; i < 5; i++) {
-        for (int j = 0; j < 5; j++) {
+    for (int i = 0; i < rowSize; i++) {
+        for (int j = 0; j < colSize; j++) {
+            if (isCorner && i >= 1 && i < rowSize - 1 && j >= 1 && j < colSize - 1) continue;
             
             // 각도별 다르게 계산
             switch (radius) {
@@ -37,7 +38,7 @@ void rotateMatrix(int arr[5][5], int radius, int rowSize, int colSize) {
     }
     
     // 원배열에 덮어씌움
-    copy(&temp[0][0], &temp[0][0] + 25, &arr[0][0]);
+    copy(&temp[0][0], &temp[0][0] + (rowSize * colSize), &arr[0][0]);
 }
 
 void printArray(int arr[5][5], int rowSize, int colSize) {
@@ -63,7 +64,10 @@ int main(int argc, char** argv)
     printf("---------------------------\n");
     
     // 90도 회전
-    rotateMatrix(arr, 270, 5, 5);
+    //rotateMatrix(arr, 90, 5, 5, false);
+    
+    // 가장자리만 배열 회전 시킴
+    rotateMatrix(arr, 90, 5, 5, true);
     
     // 화면 출력
     printArray(arr, 5, 5);
